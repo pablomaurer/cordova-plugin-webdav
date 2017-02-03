@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="your.name.space.yourPluginName" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>cordova-plugin-webdav</name>
+  <js-module name="yourPluginName" src="www/yourPluginName.js">
+    <clobbers target="cordova.plugins.yourPluginName" />
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="YourPluginName">
+        <param name="ios-package" value="YourPluginNamePlugin" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/yourPluginNamePlugin.swift" />
+    <dependency id="cordova-plugin-add-swift-support" url="https://github.com/akofman/cordova-plugin-add-swift-support"/>
+  </platform>
+</plugin>
