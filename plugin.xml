@@ -17,6 +17,7 @@
     <source-file src="src/ios/wMain.swift" />
     <source-file src="src/ios/wWebdavReq.swift" />
     <source-file src="src/ios/wXmlParser.swift" />
+    <source-file src="src/ios/wXmlPropstat.swift" />
     <dependency id="cordova-plugin-add-swift-support" url="https://github.com/akofman/cordova-plugin-add-swift-support"/>
   </platform>
 

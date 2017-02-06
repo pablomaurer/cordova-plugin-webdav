@@ -51,7 +51,7 @@ import Foundation
             print("response", response)
             print("data", data)
             print("error", error)
-            let xml = SWXMLHash.parse(data)
+            // let xml = SWXMLHash.parse(data)
         })
         
     } catch let error as NSError {
